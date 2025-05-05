@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			div{
+			text-align:center;
+			margin-top:50px;
+			}
+			.blinking-image{
+			width:200px;
+			animation: blink 2s infinite;
+			}
+			@keyframes blink{
+			0%,100%{
+			 opacity:1;
+			 25%{
+			 opacity:0.8;
+			 }
+			 50%{
+			 opacity:0.6;
+			 }
+			}
+			 75%{
+			 opacity:0.2;
+			 }
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div class="img-container">
+			<img src="wal.jpg" alt="im" title="im" class="blinking-image">
+		
+		</div>
+	
+	</body>
+
+</html>

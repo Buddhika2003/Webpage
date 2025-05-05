@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			.container{
+			position:relative;
+			width:50%;
+			}
+			
+			.image{
+			width:50%;
+			margin-left:50%;
+			height:auto;
+			}
+			
+			.overlay{
+			position:absolute;
+			margin-left:50%;																																																																																																																												
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			height:100%;
+			width:50%;
+			opacity:0;
+			transition:0.5s;
+			background-color:#008CBA;
+			}
+			
+			.container:hover .overlay{
+			opacity:1;
+			}
+			
+			.text{
+			color:white;
+			font-size:10px;
+			position:absolute;
+			
+			top:50%;
+			left:40%;
+			}
+			
+							
+		
+		</style>
+	</head>
+	<body>
+	<h2>Fade in Overlay</h2>
+		<div class="container">
+			<img src="wal.jpg" alt="Avatar" class="image">
+			<div class="overlay">
+			  <div class="text">Hello World</div>
+			</div>
+		</div>
+	</body>
+
+
+</html>
